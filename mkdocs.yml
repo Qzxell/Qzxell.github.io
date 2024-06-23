@@ -1,10 +1,10 @@
-site_name: xzqbear blogs
-repo_url: https://github.com/xiong-ZH-zq/xzqbear-blogs
-repo_name: xzqbear-blogs
+site_name: Apuntes 
+repo_url: https://github.com/Qzxell/Qzxell.github.io
+repo_name: Qzxell 
 theme:
   favicon: imgs/bear-svgrepo-com.svg
   logo: imgs/bear-svgrepo-com.svg
-  language: zh
+  language: en 
   name: material
   custom_dir: overrides
   palette:
@@ -71,7 +71,7 @@ plugins:
       post_dir: "{blog}/articles"
       categories: true
       categories_name: Categories
-      archive_name: "按年份归类"
+      archive_name: "hello"
       post_readtime_words_per_minute: 220
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
@@ -90,16 +90,3 @@ extra:
   analytics:
     provider: google
     property: G-XXXXXXXXXX
-    feedback:
-      title: 本页面内容是否对您有帮助?
-      ratings:
-        - icon: material/thumb-up-outline
-          name: 有帮助
-          data: 1
-          note: >-
-            感谢反馈！
-        - icon: material/thumb-down-outline
-          name: 没帮助
-          data: 0
-          note: >- 
-            感谢反馈！
